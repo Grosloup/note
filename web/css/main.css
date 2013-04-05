@@ -53,3 +53,59 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+body {
+  color: #666;
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  background-color: #f1f1f1;
+}
+
+.n-top-navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #d0d0d0;
+  height: 72px;
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 800;
+}
+.n-top-navbar .n-brand {
+  display: inline-block;
+  margin-left: 32px;
+  vertical-align: middle;
+}
+.n-top-navbar .n-brand .n-logo {
+  background-image: url("../img/AngularJS-small.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 238px 61px;
+  width: 238px;
+  height: 61px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.n-top-navbar .n-brand .n-title {
+  font-size: 30px;
+  line-height: 1.731;
+  font-family: "Open Sans",arial,sans-serif;
+  font-weight: 300;
+  color: #808285;
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.n-wrapper {
+  margin-top: 82px;
+  padding-top: 20px;
+  position: relative;
+}
+.n-wrapper .n-main-content {
+  margin: 20px auto;
+  width: 624px;
+  position: relative;
+  min-height: 1000px;
+}
